@@ -1,0 +1,48 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 0
+  files:
+  - duration:
+      nanoseconds: 0
+    message_count: 750
+    path: mini_aloha_bag.db3
+    starting_time:
+      nanoseconds_since_epoch: !!binary |
+        ADhfHgAAAAA=
+  message_count: 750
+  relative_file_paths:
+  - mini_aloha_bag.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: !!binary |
+      ADhfHgAAAAA=
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 150
+    topic_metadata:
+      name: /camera_head/image
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: 
+        RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  - message_count: 500
+    topic_metadata:
+      name: /joint_states
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash: 
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 100
+    topic_metadata:
+      name: /action
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: std_msgs/msg/Float64MultiArray
+      type_description_hash: 
+        RIHS01_1025ddc6b9552d191f89ef1a8d2f60f3d373e28b283d8891ddcc974e8c55397f
+  version: 8
